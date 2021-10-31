@@ -14,7 +14,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayDontHas7Then0() {
+    public void whenArrayDontHas7ThenMinus1() {
         int[] data = {5, 4, 3, 2};
         int el = 7;
         int result = FindLoop.indexOf(data, el);
